@@ -35,6 +35,7 @@
 			"include_dirs": [
 				"C:/gstreamer-sdk/1.0/x86_64/include/gstreamer-1.0",
 				"C:/gstreamer-sdk/1.0/x86_64/include/glib-2.0",
+				"C:/gstreamer-sdk/1.0/x86_64/include/glib-2.0/include",
 				"C:/gstreamer-sdk/1.0/x86_64/include/libxml2"
 			],
 			"libraries": [
