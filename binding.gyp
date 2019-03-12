@@ -33,16 +33,16 @@
 		}],
 		["OS=='win'", {
 			"include_dirs": [
-				"X:/gstreamer-sdk/1.0/x86_64/include/gstreamer-1.0",
-				"X:/gstreamer-sdk/1.0/x86_64/include/glib-2.0",
-				"X:/gstreamer-sdk/1.0/x86_64/include/libxml2"
+				"C:/gstreamer-sdk/1.0/x86_64/include/gstreamer-1.0",
+				"C:/gstreamer-sdk/1.0/x86_64/include/glib-2.0",
+				"C:/gstreamer-sdk/1.0/x86_64/include/libxml2"
 			],
 			"libraries": [
-				"X:/gstreamer-sdk/1.0/x86_64/lib/gstreamer-1.0.lib",
-				"X:/gstreamer-sdk/1.0/x86_64/lib/gstapp-1.0.lib",
-				"X:/gstreamer-sdk/1.0/x86_64/lib/gstvideo-1.0.lib",
-				"X:/gstreamer-sdk/1.0/x86_64/lib/gobject-2.0.lib",
-				"X:/gstreamer-sdk/1.0/x86_64/lib/glib-2.0.lib"
+				"C:/gstreamer-sdk/1.0/x86_64/lib/gstreamer-1.0.lib",
+				"C:/gstreamer-sdk/1.0/x86_64/lib/gstapp-1.0.lib",
+				"C:/gstreamer-sdk/1.0/x86_64/lib/gstvideo-1.0.lib",
+				"C:/gstreamer-sdk/1.0/x86_64/lib/gobject-2.0.lib",
+				"C:/gstreamer-sdk/1.0/x86_64/lib/glib-2.0.lib"
 			]
 		}]
 	  ]
