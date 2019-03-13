@@ -1,4 +1,5 @@
 {
+  "win_delay_load_hook": "true",
   "targets": [
     {
       "target_name": "gstreamer-superficial",
@@ -33,17 +34,17 @@
 		}],
 		["OS=='win'", {
 			"include_dirs": [
-				"C:/gstreamer-sdk/1.0/x86_64/include/gstreamer-1.0",
-				"C:/gstreamer-sdk/1.0/x86_64/include/glib-2.0",
-				"C:/gstreamer-sdk/1.0/x86_64/include/glib-2.0/include",
-				"C:/gstreamer-sdk/1.0/x86_64/include/libxml2"
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/gstreamer-1.0",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/glib-2.0",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/glib-2.0/include",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/libxml2"
 			],
 			"libraries": [
-				"C:/gstreamer-sdk/1.0/x86_64/lib/gstreamer-1.0.lib",
-				"C:/gstreamer-sdk/1.0/x86_64/lib/gstapp-1.0.lib",
-				"C:/gstreamer-sdk/1.0/x86_64/lib/gstvideo-1.0.lib",
-				"C:/gstreamer-sdk/1.0/x86_64/lib/gobject-2.0.lib",
-				"C:/gstreamer-sdk/1.0/x86_64/lib/glib-2.0.lib"
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/gstreamer-1.0.lib",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/gstapp-1.0.lib",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/gstvideo-1.0.lib",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/gobject-2.0.lib",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/glib-2.0.lib"
 			]
 		}]
 	  ]
