@@ -35,6 +35,7 @@
 		["OS=='win'", {
 			"include_dirs": [
 				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/gstreamer-1.0",
+				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/bin",
 				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/glib-2.0",
 				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/lib/glib-2.0/include",
 				"<!(echo %GSTREAMER_1_0_ROOT_X86_64%)/include/libxml2"
